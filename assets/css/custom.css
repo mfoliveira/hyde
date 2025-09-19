@@ -7,3 +7,9 @@
 .theme-mfo .related-posts li a:hover {
   color: #2879d0;
 }
+
+/* About section */
+.sidebar-about h1 {
+  font-family: unset;
+  font-size: 2.25rem;
+}
