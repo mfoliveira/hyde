@@ -1,6 +1,7 @@
 {{ define "main" -}}
+<h2>Blog</h2>
 <div class="posts">
-{{ range .Site.RegularPages -}}
+{{ range (where .Site.RegularPages "Section" "posts") -}}
 <article class="">
   <h3 class="post-title">
     <a href="{{ .Permalink }}">{{ .Title }}</a>
