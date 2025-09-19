@@ -2,6 +2,7 @@
 .theme-mfo .sidebar {
   background-color: #2879d0;
 }
+.theme-mfo .post h1:first-of-type,
 .theme-mfo .content a,
 .theme-mfo .related-posts li a:hover {
   color: #2879d0;
