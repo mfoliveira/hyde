@@ -14,9 +14,13 @@
   font-size: 2.25rem;
 }
 
-/* Sticky sidebar */
 @media (min-width: 48em) {
+  /* Sticky sidebar's text at the top */
   .sidebar-sticky {
     bottom: unset;
+  }
+  /* Wider content */
+  .content {
+    max-width: 100rem;
   }
 }
